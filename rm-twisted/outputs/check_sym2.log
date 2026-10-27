@@ -1,0 +1,63 @@
+(S1) True
+(S2) True
+(S3) True
+(S4) True
+    t=5 principal: det b_f = 5, 100 integral X: S_f integral
+    t=2 principal: det b_f = 8, 100 integral X: S_f integral
+    t=3 principal: det b_f = 12, 100 integral X: S_f integral
+    t=13 principal: det b_f = 13, 100 integral X: S_f integral
+(S5) True
+    t= 5 free(-3/2+-3/2r5,-3/2+-3/2r5)            W=2916     content/(4 d_F) = 1
+    t= 5 free(-3/2+-3/2r5,-1+-1r5)                W=1296     content/(4 d_F) = 1
+    t= 5 free(-3/2+-3/2r5,-1/2+-1/2r5)            W=324      content/(4 d_F) = 1
+    t= 5 free(-1+-1r5,-3/2+-3/2r5)                W=576      content/(4 d_F) = 1
+    t= 5 free(-1+-1r5,-1+-1r5)                    W=256      content/(4 d_F) = 1
+    t= 5 free(-1+-1r5,-1/2+-1/2r5)                W=64       content/(4 d_F) = 1
+    t= 5 free(-1/2+-1/2r5,-3/2+-3/2r5)            W=36       content/(4 d_F) = 1
+    t= 5 free(-1/2+-1/2r5,-1+-1r5)                W=16       content/(4 d_F) = 1
+    t= 5 free(-1/2+-1/2r5,-1/2+-1/2r5)            W=4        content/(4 d_F) = 1
+    t= 5 rand(N=2)#0 -3/2+-3/2r5,-3/2+-3/2r5      W=1458     content/(4 d_F) = 2
+    t= 5 rand(N=2)#1 -3/2+-3/2r5,-3/2+-3/2r5      W=729/4    content/(4 d_F) = 4
+    t= 5 rand(N=3)#0 -1+-1r5,-1/2+-1/2r5          W=64/27    content/(4 d_F) = 27
+    t= 5 rand(N=3)#1 -1/2+-1/2r5,-1+-1r5          W=16/243   content/(4 d_F) = 9
+    t= 2 free(0+-2r2,0+-2r2)                      W=2048     content/(4 d_F) = 1
+    t= 2 free(0+-2r2,0+-1r2)                      W=512      content/(4 d_F) = 1
+    t= 2 free(0+-2r2,1+-2r2)                      W=1792     content/(4 d_F) = 1
+    t= 2 free(0+-1r2,0+-2r2)                      W=128      content/(4 d_F) = 1
+    t= 2 free(0+-1r2,0+-1r2)                      W=32       content/(4 d_F) = 1
+    t= 2 free(0+-1r2,1+-2r2)                      W=112      content/(4 d_F) = 1
+    t= 2 free(1+-2r2,0+-2r2)                      W=1568     content/(4 d_F) = 1
+    t= 2 free(1+-2r2,0+-1r2)                      W=392      content/(4 d_F) = 1
+    t= 2 free(1+-2r2,1+-2r2)                      W=1372     content/(4 d_F) = 1
+    t= 2 rand(N=2)#0 0+-1r2,0+-1r2                W=4        content/(4 d_F) = 4
+    t= 2 rand(N=2)#1 1+-2r2,0+-2r2                W=784      content/(4 d_F) = 2
+    t= 2 rand(N=3)#0 0+-1r2,0+-2r2                W=128/81   content/(4 d_F) = 9
+    t= 2 rand(N=3)#1 1+-2r2,1+-2r2                W=1372/3   content/(4 d_F) = 3
+    t= 3 free(0+-1r3,0+-1r3)                      W=108      content/(4 d_F) = 1
+    t= 3 free(0+-1r3,1+-1r3)                      W=72       content/(4 d_F) = 1
+    t= 3 free(0+-1r3,1+0r3)                       W=36       content/(4 d_F) = 1
+    t= 3 free(1+-1r3,0+-1r3)                      W=48       content/(4 d_F) = 1
+    t= 3 free(1+-1r3,1+-1r3)                      W=32       content/(4 d_F) = 1
+    t= 3 free(1+-1r3,1+0r3)                       W=16       content/(4 d_F) = 1
+    t= 3 free(1+0r3,0+-1r3)                       W=12       content/(4 d_F) = 1
+    t= 3 free(1+0r3,1+-1r3)                       W=8        content/(4 d_F) = 1
+    t= 3 free(1+0r3,1+0r3)                        W=4        content/(4 d_F) = 1
+    t= 3 rand(N=2)#0 1+-1r3,1+0r3                 W=2        content/(4 d_F) = 4
+    t= 3 rand(N=2)#1 0+-1r3,1+0r3                 W=9/2      content/(4 d_F) = 8
+    t= 3 rand(N=3)#0 1+-1r3,1+0r3                 W=16/3     content/(4 d_F) = 3
+    t= 3 rand(N=3)#1 1+0r3,0+-1r3                 W=4        content/(4 d_F) = 3
+    t=13 free(-1/2+-1/2r13,-1/2+-1/2r13)          W=108      content/(4 d_F) = 1
+    t=13 free(-1/2+-1/2r13,1+0r13)                W=36       content/(4 d_F) = 1
+    t=13 free(-1/2+-1/2r13,3/2+1/2r13)            W=36       content/(4 d_F) = 1
+    t=13 free(1+0r13,-1/2+-1/2r13)                W=12       content/(4 d_F) = 1
+    t=13 free(1+0r13,1+0r13)                      W=4        content/(4 d_F) = 1
+    t=13 free(1+0r13,3/2+1/2r13)                  W=4        content/(4 d_F) = 1
+    t=13 free(3/2+1/2r13,-1/2+-1/2r13)            W=12       content/(4 d_F) = 1
+    t=13 free(3/2+1/2r13,1+0r13)                  W=4        content/(4 d_F) = 1
+    t=13 free(3/2+1/2r13,3/2+1/2r13)              W=4        content/(4 d_F) = 1
+    t=13 rand(N=2)#0 1+0r13,-1/2+-1/2r13          W=3/2      content/(4 d_F) = 4
+    t=13 rand(N=2)#1 3/2+1/2r13,1+0r13            W=1/8      content/(4 d_F) = 4
+    t=13 rand(N=3)#0 3/2+1/2r13,3/2+1/2r13        W=4/3      content/(4 d_F) = 3
+    t=13 rand(N=3)#1 3/2+1/2r13,3/2+1/2r13        W=4/27     content/(4 d_F) = 9
+(S6 (content divisible by 4 d_F on every listed lattice)) True
+ALL CHECKS PASS: True

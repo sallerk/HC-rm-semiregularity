@@ -1,0 +1,4 @@
+K1 eps commutes with K: True
+K2 eps^2 = 2 chi(c_P~)/W on H_+, 2 chi(c_P)/W on H_-: True
+K3 eps vanishes on H_+ for c in P, on H_- for c in P~: True
+ALL CHECKS PASS: True

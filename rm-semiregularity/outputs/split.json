@@ -1,0 +1,1996 @@
+{
+ "_all_checks_pass": true,
+ "results": {
+  "AA": {
+   "diagonal member t=5, gamma=1": {
+    "facts": {
+     "(C1 + S1/gamma)(C2 + S2/gamma) = C1 C2 + gamma^-2 S1 S2 + gamma^-1 (S1 C2 + C1 S2)": true,
+     "c_tw != ch E'": true,
+     "c_tw independent of gamma": true,
+     "c_tw rational": true,
+     "e^{Theta/gamma} c_tw = (C1 + S1)(C2 + S2) (only for gamma = 1)": true,
+     "e^{Theta/gamma} c_tw = (C1 + S1/gamma)(C2 + S2/gamma)": true,
+     "q r v = N(g)": true
+    },
+    "ok": true,
+    "q": "2",
+    "stabilizers": {
+     "C1 C2": {
+      "stab": 70,
+      "stab n so(V'_1) product": 0,
+      "stab n so(V'_2) product": 0,
+      "stab n so(V_1) eigen": 35,
+      "stab n so(V_2) eigen": 35
+     },
+     "c_tw": {
+      "stab": 70,
+      "stab n so(V'_1) product": 0,
+      "stab n so(V'_2) product": 0,
+      "stab n so(V_1) eigen": 35,
+      "stab n so(V_2) eigen": 35
+     },
+     "ch E'": {
+      "stab": 70,
+      "stab n so(V'_1) product": 35,
+      "stab n so(V'_2) product": 35,
+      "stab n so(V_1) eigen": 0,
+      "stab n so(V_2) eigen": 0
+     }
+    }
+   },
+   "diagonal member t=5, gamma=1/3": {
+    "facts": {
+     "(C1 + S1/gamma)(C2 + S2/gamma) = C1 C2 + gamma^-2 S1 S2 + gamma^-1 (S1 C2 + C1 S2)": true,
+     "c_tw != ch E'": true,
+     "c_tw independent of gamma": true,
+     "c_tw rational": true,
+     "e^{Theta/gamma} c_tw = (C1 + S1)(C2 + S2) (only for gamma = 1)": false,
+     "e^{Theta/gamma} c_tw = (C1 + S1/gamma)(C2 + S2/gamma)": true,
+     "q r v = N(g)": true
+    },
+    "ok": true,
+    "q": "18",
+    "stabilizers": {
+     "(C1 + S1/gamma)(C2 + S2/gamma)": {
+      "stab": 70,
+      "stab n so(V'_1) product": 0,
+      "stab n so(V'_2) product": 0,
+      "stab n so(V_1) eigen": 35,
+      "stab n so(V_2) eigen": 35
+     }
+    }
+   },
+   "diagonal member t=5, gamma=2": {
+    "facts": {
+     "(C1 + S1/gamma)(C2 + S2/gamma) = C1 C2 + gamma^-2 S1 S2 + gamma^-1 (S1 C2 + C1 S2)": true,
+     "c_tw != ch E'": true,
+     "c_tw independent of gamma": true,
+     "c_tw rational": true,
+     "e^{Theta/gamma} c_tw = (C1 + S1)(C2 + S2) (only for gamma = 1)": false,
+     "e^{Theta/gamma} c_tw = (C1 + S1/gamma)(C2 + S2/gamma)": true,
+     "q r v = N(g)": true
+    },
+    "ok": true,
+    "q": "1/2",
+    "stabilizers": {
+     "(C1 + S1/gamma)(C2 + S2/gamma)": {
+      "stab": 70,
+      "stab n so(V'_1) product": 0,
+      "stab n so(V'_2) product": 0,
+      "stab n so(V_1) eigen": 35,
+      "stab n so(V_2) eigen": 35
+     }
+    }
+   },
+   "integrality": [
+    {
+     "Mukai square": "0",
+     "N": 2,
+     "Pf": "512",
+     "chE' integral": true,
+     "int c_tw": "8192",
+     "int ch E'": "16",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 2
+    },
+    {
+     "Mukai square": "0",
+     "N": 3,
+     "Pf": "512",
+     "chE' integral": true,
+     "int c_tw": "18432",
+     "int ch E'": "36",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 2
+    },
+    {
+     "Mukai square": "0",
+     "N": 4,
+     "Pf": "512",
+     "chE' integral": true,
+     "int c_tw": "32768",
+     "int ch E'": "64",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 2
+    },
+    {
+     "Mukai square": "0",
+     "N": 5,
+     "Pf": "512",
+     "chE' integral": true,
+     "int c_tw": "51200",
+     "int ch E'": "100",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 2
+    },
+    {
+     "Mukai square": "0",
+     "N": 2,
+     "Pf": "1728",
+     "chE' integral": true,
+     "int c_tw": "27648",
+     "int ch E'": "16",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 3
+    },
+    {
+     "Mukai square": "0",
+     "N": 3,
+     "Pf": "1728",
+     "chE' integral": true,
+     "int c_tw": "62208",
+     "int ch E'": "36",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 3
+    },
+    {
+     "Mukai square": "0",
+     "N": 4,
+     "Pf": "1728",
+     "chE' integral": true,
+     "int c_tw": "110592",
+     "int ch E'": "64",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 3
+    },
+    {
+     "Mukai square": "0",
+     "N": 5,
+     "Pf": "1728",
+     "chE' integral": true,
+     "int c_tw": "172800",
+     "int ch E'": "100",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 3
+    },
+    {
+     "Mukai square": "0",
+     "N": 2,
+     "Pf": "125",
+     "chE' integral": true,
+     "int c_tw": "2000",
+     "int ch E'": "16",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 5
+    },
+    {
+     "Mukai square": "0",
+     "N": 3,
+     "Pf": "125",
+     "chE' integral": true,
+     "int c_tw": "4500",
+     "int ch E'": "36",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 5
+    },
+    {
+     "Mukai square": "0",
+     "N": 4,
+     "Pf": "125",
+     "chE' integral": true,
+     "int c_tw": "8000",
+     "int ch E'": "64",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 5
+    },
+    {
+     "Mukai square": "0",
+     "N": 5,
+     "Pf": "125",
+     "chE' integral": true,
+     "int c_tw": "12500",
+     "int ch E'": "100",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 5
+    },
+    {
+     "Mukai square": "0",
+     "N": 2,
+     "Pf": "2197",
+     "chE' integral": true,
+     "int c_tw": "35152",
+     "int ch E'": "16",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 13
+    },
+    {
+     "Mukai square": "0",
+     "N": 3,
+     "Pf": "2197",
+     "chE' integral": true,
+     "int c_tw": "79092",
+     "int ch E'": "36",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 13
+    },
+    {
+     "Mukai square": "0",
+     "N": 4,
+     "Pf": "2197",
+     "chE' integral": true,
+     "int c_tw": "140608",
+     "int ch E'": "64",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 13
+    },
+    {
+     "Mukai square": "0",
+     "N": 5,
+     "Pf": "2197",
+     "chE' integral": true,
+     "int c_tw": "219700",
+     "int ch E'": "100",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 13
+    },
+    {
+     "Mukai square": "0",
+     "N": 2,
+     "Pf": "185193",
+     "chE' integral": true,
+     "int c_tw": "2963088",
+     "int ch E'": "16",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 57
+    },
+    {
+     "Mukai square": "0",
+     "N": 3,
+     "Pf": "185193",
+     "chE' integral": true,
+     "int c_tw": "6666948",
+     "int ch E'": "36",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 57
+    },
+    {
+     "Mukai square": "0",
+     "N": 4,
+     "Pf": "185193",
+     "chE' integral": true,
+     "int c_tw": "11852352",
+     "int ch E'": "64",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 57
+    },
+    {
+     "Mukai square": "0",
+     "N": 5,
+     "Pf": "185193",
+     "chE' integral": true,
+     "int c_tw": "18519300",
+     "int ch E'": "100",
+     "integral": true,
+     "ok": true,
+     "rank 1, c_1 = 0": true,
+     "t": 57
+    }
+   ],
+   "integrality via phi_k^* (proof of 9.22(b))": [
+    {
+     "(phi_k^* theta_0)^4 = 0": true,
+     "N = 1..9 ok": true,
+     "N rows": [
+      {
+       "Mukai square": "0",
+       "N": 1,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "2048",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 2,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "8192",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 3,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "18432",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 4,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "32768",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 5,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "51200",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 6,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "73728",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 7,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "100352",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 8,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "131072",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 9,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "165888",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      }
+     ],
+     "disc(O)": "8",
+     "gamma (N = 3)": {
+      "1": {
+       "c_tw = e^{-Theta/gamma} (C1 + S1)(C2 + S2)": true,
+       "c_tw = e^{-Theta/gamma} (C1 + S1/gamma)(C2 + S2/gamma)": true
+      },
+      "1/3": {
+       "c_tw = e^{-Theta/gamma} (C1 + S1)(C2 + S2)": false,
+       "c_tw = e^{-Theta/gamma} (C1 + S1/gamma)(C2 + S2/gamma)": true
+      },
+      "2": {
+       "c_tw = e^{-Theta/gamma} (C1 + S1)(C2 + S2)": false,
+       "c_tw = e^{-Theta/gamma} (C1 + S1/gamma)(C2 + S2/gamma)": true
+      }
+     },
+     "ok": true,
+     "order": "Z[sqrt 2]"
+    },
+    {
+     "(phi_k^* theta_0)^4 = 0": true,
+     "N = 1..9 ok": true,
+     "N rows": [
+      {
+       "Mukai square": "0",
+       "N": 1,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "2048",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 2,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "8192",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 3,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "18432",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 4,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "32768",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 5,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "51200",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 6,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "73728",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 7,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "100352",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 8,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "131072",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 9,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "165888",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      }
+     ],
+     "disc(O)": "8",
+     "ok": true,
+     "order": "Z[sqrt 2], basis (1, 1 + sqrt 2)"
+    },
+    {
+     "(phi_k^* theta_0)^4 = 0": true,
+     "N = 1..9 ok": true,
+     "N rows": [
+      {
+       "Mukai square": "0",
+       "N": 1,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "6912",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 2,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "27648",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 3,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "62208",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 4,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "110592",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 5,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "172800",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 6,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "248832",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 7,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "338688",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 8,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "442368",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 9,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "559872",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      }
+     ],
+     "disc(O)": "12",
+     "ok": true,
+     "order": "Z[sqrt 3]"
+    },
+    {
+     "(phi_k^* theta_0)^4 = 0": true,
+     "N = 1..9 ok": true,
+     "N rows": [
+      {
+       "Mukai square": "0",
+       "N": 1,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "500",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 2,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "2000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 3,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "4500",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 4,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "8000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 5,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "12500",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 6,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "18000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 7,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "24500",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 8,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "32000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 9,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "40500",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      }
+     ],
+     "disc(O)": "5",
+     "gamma (N = 3)": {
+      "1": {
+       "c_tw = e^{-Theta/gamma} (C1 + S1)(C2 + S2)": true,
+       "c_tw = e^{-Theta/gamma} (C1 + S1/gamma)(C2 + S2/gamma)": true
+      },
+      "1/3": {
+       "c_tw = e^{-Theta/gamma} (C1 + S1)(C2 + S2)": false,
+       "c_tw = e^{-Theta/gamma} (C1 + S1/gamma)(C2 + S2/gamma)": true
+      },
+      "2": {
+       "c_tw = e^{-Theta/gamma} (C1 + S1)(C2 + S2)": false,
+       "c_tw = e^{-Theta/gamma} (C1 + S1/gamma)(C2 + S2/gamma)": true
+      }
+     },
+     "ok": true,
+     "order": "Z[phi]"
+    },
+    {
+     "(phi_k^* theta_0)^4 = 0": true,
+     "N = 1..9 ok": true,
+     "N rows": [
+      {
+       "Mukai square": "0",
+       "N": 1,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "32000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 2,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "128000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 3,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "288000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 4,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "512000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 5,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "800000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 6,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "1152000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 7,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "1568000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 8,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "2048000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 9,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "2592000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      }
+     ],
+     "disc(O)": "20",
+     "ok": true,
+     "order": "Z[sqrt 5]"
+    },
+    {
+     "(phi_k^* theta_0)^4 = 0": true,
+     "N = 1..9 ok": true,
+     "N rows": [
+      {
+       "Mukai square": "0",
+       "N": 1,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "364500",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 2,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "1458000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 3,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "3280500",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 4,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "5832000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 5,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "9112500",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 6,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "13122000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 7,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "17860500",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 8,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "23328000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 9,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "29524500",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      }
+     ],
+     "disc(O)": "45",
+     "gamma (N = 3)": {
+      "1": {
+       "c_tw = e^{-Theta/gamma} (C1 + S1)(C2 + S2)": true,
+       "c_tw = e^{-Theta/gamma} (C1 + S1/gamma)(C2 + S2/gamma)": true
+      },
+      "1/3": {
+       "c_tw = e^{-Theta/gamma} (C1 + S1)(C2 + S2)": false,
+       "c_tw = e^{-Theta/gamma} (C1 + S1/gamma)(C2 + S2/gamma)": true
+      },
+      "2": {
+       "c_tw = e^{-Theta/gamma} (C1 + S1)(C2 + S2)": false,
+       "c_tw = e^{-Theta/gamma} (C1 + S1/gamma)(C2 + S2/gamma)": true
+      }
+     },
+     "ok": true,
+     "order": "Z[3 phi]"
+    },
+    {
+     "(phi_k^* theta_0)^4 = 0": true,
+     "N = 1..9 ok": true,
+     "N rows": [
+      {
+       "Mukai square": "0",
+       "N": 1,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "256000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 2,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "1024000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 3,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "2304000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 4,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "4096000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 5,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "6400000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 6,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "9216000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 7,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "12544000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 8,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "16384000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 9,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "20736000",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      }
+     ],
+     "disc(O)": "40",
+     "ok": true,
+     "order": "Z[sqrt 10]"
+    },
+    {
+     "(phi_k^* theta_0)^4 = 0": true,
+     "N = 1..9 ok": true,
+     "N rows": [
+      {
+       "Mukai square": "0",
+       "N": 1,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "8788",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 2,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "35152",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 3,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "79092",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 4,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "140608",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 5,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "219700",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 6,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "316368",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 7,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "430612",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 8,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "562432",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 9,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "711828",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      }
+     ],
+     "disc(O)": "13",
+     "ok": true,
+     "order": "Z[(1 + sqrt 13)/2]"
+    },
+    {
+     "(phi_k^* theta_0)^4 = 0": true,
+     "N = 1..9 ok": true,
+     "N rows": [
+      {
+       "Mukai square": "0",
+       "N": 1,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "562432",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 2,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "2249728",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 3,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "5061888",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 4,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "8998912",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 5,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "14060800",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 6,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "20247552",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 7,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "27559168",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 8,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "35995648",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 9,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "45556992",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      }
+     ],
+     "disc(O)": "52",
+     "ok": true,
+     "order": "Z[1 + sqrt 13]"
+    },
+    {
+     "(phi_k^* theta_0)^4 = 0": true,
+     "N = 1..9 ok": true,
+     "N rows": [
+      {
+       "Mukai square": "0",
+       "N": 1,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "37044",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 2,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "148176",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 3,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "333396",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 4,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "592704",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 5,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "926100",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 6,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "1333584",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 7,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "1815156",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 8,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "2370816",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 9,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "3000564",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      }
+     ],
+     "disc(O)": "21",
+     "ok": true,
+     "order": "Z[(1 + sqrt 21)/2]"
+    },
+    {
+     "(phi_k^* theta_0)^4 = 0": true,
+     "N = 1..9 ok": true,
+     "N rows": [
+      {
+       "Mukai square": "0",
+       "N": 1,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "740772",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 2,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "2963088",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 3,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "6666948",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 4,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "11852352",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 5,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "18519300",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 6,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "26667792",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 7,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "36297828",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 8,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "47409408",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      },
+      {
+       "Mukai square": "0",
+       "N": 9,
+       "ch E' integral, int 4N^2, Mukai square 0": true,
+       "int c_tw": "60002532",
+       "integral": true,
+       "ok": true,
+       "phi_1^* ch(I) in H^* (x) O": true,
+       "rank 1, c_1 = 0": true,
+       "rational": true
+      }
+     ],
+     "disc(O)": "57",
+     "gamma (N = 3)": {
+      "1": {
+       "c_tw = e^{-Theta/gamma} (C1 + S1)(C2 + S2)": true,
+       "c_tw = e^{-Theta/gamma} (C1 + S1/gamma)(C2 + S2/gamma)": true
+      },
+      "1/3": {
+       "c_tw = e^{-Theta/gamma} (C1 + S1)(C2 + S2)": false,
+       "c_tw = e^{-Theta/gamma} (C1 + S1/gamma)(C2 + S2/gamma)": true
+      },
+      "2": {
+       "c_tw = e^{-Theta/gamma} (C1 + S1)(C2 + S2)": false,
+       "c_tw = e^{-Theta/gamma} (C1 + S1/gamma)(C2 + S2/gamma)": true
+      }
+     },
+     "ok": true,
+     "order": "Z[(1 + sqrt 57)/2]"
+    }
+   ]
+  },
+  "Y": {
+   "comparison": {
+    "n=4 (C1+2S1)(C2+2S2)": {
+     "ann_V": 0,
+     "dim_so": 120,
+     "line_stab": 42,
+     "stab": 42,
+     "stab n so(V_1)": 21,
+     "stab n so(V_2)": 21
+    },
+    "n=4 C1 C2": {
+     "ann_V": 0,
+     "dim_so": 120,
+     "line_stab": 42,
+     "stab": 42,
+     "stab n so(V_1)": 21,
+     "stab n so(V_2)": 21
+    },
+    "n=4 generic": {
+     "ann_V": 0,
+     "dim_so": 120,
+     "line_stab": 30,
+     "stab": 30,
+     "stab n so(V_1)": 15,
+     "stab n so(V_2)": 15
+    },
+    "n=6 B pointwise (Lie Spin(V)_B)": {
+     "stab": 70,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "n=6 alpha": {
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 143,
+     "stab": 143,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "n=6 alpha~": {
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 143,
+     "stab": 143,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "n=6 beta": {
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 143,
+     "stab": 143,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "n=6 beta~": {
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 143,
+     "stab": 143,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "n=6 generic -2 alpha + beta + 4 alpha~ + beta~": {
+     "Mukai square != 0 (off the cone)": true,
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 70,
+     "stab": 70,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "n=6 generic 2 alpha - beta + 3 alpha~ + beta~": {
+     "Mukai square != 0 (off the cone)": true,
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 70,
+     "stab": 70,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "n=6 generic 5 alpha - 3 beta + 2 alpha~ + 7 beta~": {
+     "Mukai square != 0 (off the cone)": true,
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 70,
+     "stab": 70,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "n=6 generic alpha + 2 beta - alpha~ + 3 beta~": {
+     "Mukai square != 0 (off the cone)": true,
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 70,
+     "stab": 70,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "n=6 generic alpha + beta~": {
+     "Mukai square != 0 (off the cone)": true,
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 70,
+     "stab": 70,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    }
+   },
+   "n6_cone": {
+    "(C1+15S1)(C2+15S2)": {
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 70,
+     "stab": 70,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "(C1+2S1)(3C2-S2)": {
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 70,
+     "stab": 70,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "C1 C2": {
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 70,
+     "stab": 70,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "S1 S2": {
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 70,
+     "stab": 70,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "f(T1)f(T2) N=2": {
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 70,
+     "stab": 70,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    },
+    "f(T1)f(T2) N=4": {
+     "ann_V": 0,
+     "dim_so": 276,
+     "line_stab": 70,
+     "stab": 70,
+     "stab n so(V_1)": 35,
+     "stab n so(V_2)": 35
+    }
+   },
+   "one_block": {
+    "('1/2', 0, 1)": {
+     "ann_V": 0,
+     "dim_so": 66,
+     "line_stab": 35,
+     "stab": 35
+    },
+    "('1/2', 1, 0)": {
+     "ann_V": 0,
+     "dim_so": 66,
+     "line_stab": 35,
+     "stab": 35
+    },
+    "('1/2', 1, 2)": {
+     "ann_V": 0,
+     "dim_so": 66,
+     "line_stab": 35,
+     "stab": 35
+    },
+    "('1/2', 2, 5)": {
+     "ann_V": 0,
+     "dim_so": 66,
+     "line_stab": 35,
+     "stab": 35
+    },
+    "('1/2', 3, -1)": {
+     "ann_V": 0,
+     "dim_so": 66,
+     "line_stab": 35,
+     "stab": 35
+    },
+    "('3', 0, 1)": {
+     "ann_V": 0,
+     "dim_so": 66,
+     "line_stab": 35,
+     "stab": 35
+    },
+    "('3', 1, 0)": {
+     "ann_V": 0,
+     "dim_so": 66,
+     "line_stab": 35,
+     "stab": 35
+    },
+    "('3', 1, 2)": {
+     "ann_V": 0,
+     "dim_so": 66,
+     "line_stab": 35,
+     "stab": 35
+    },
+    "('3', 2, 5)": {
+     "ann_V": 0,
+     "dim_so": 66,
+     "line_stab": 35,
+     "stab": 35
+    },
+    "('3', 3, -1)": {
+     "ann_V": 0,
+     "dim_so": 66,
+     "line_stab": 35,
+     "stab": 35
+    }
+   }
+  },
+  "Z": [
+   {
+    "(i) self-adjoint, eigenvectors, Theta, B rational": true,
+    "N": 3,
+    "c": "(Fraction(1, 1), Fraction(0, 1))",
+    "dims": {
+     "D in K(ch F[x]F)": 9,
+     "D_E' n K(B)": 6,
+     "Delta in K(B) n K(chE')": 6,
+     "G": 6,
+     "K(B)": 18,
+     "K(B) n K(chE')": 6,
+     "K(chE')": 18,
+     "K(chE') n OL": 0,
+     "K(chE') n T": 12,
+     "R": 12,
+     "R n K(chE')": 6,
+     "dim D": 9,
+     "dim K(ch I)": 9,
+     "pi^* K(ch I) in K(chE')": 18,
+     "rank D + Delta": 9,
+     "rank Delta": 6,
+     "rank monomials, + ch E'": [
+      16,
+      17
+     ],
+     "rank pi_1^* K(ch I) + pi_2^* K(ch I)": 18
+    },
+    "ok": true,
+    "omega": "(Fraction(1, 2), Fraction(1, 2))",
+    "q": 2,
+    "t": 5
+   },
+   {
+    "(i) self-adjoint, eigenvectors, Theta, B rational": true,
+    "N": 3,
+    "c": "(Fraction(1, 1), Fraction(0, 1))",
+    "dims": {
+     "D in K(ch F[x]F)": 9,
+     "D_E' n K(B)": 6,
+     "Delta in K(B) n K(chE')": 6,
+     "G": 6,
+     "K(B)": 18,
+     "K(B) n K(chE')": 6,
+     "K(chE')": 18,
+     "K(chE') n OL": 0,
+     "K(chE') n T": 12,
+     "R": 12,
+     "R n K(chE')": 6,
+     "dim D": 9,
+     "dim K(ch I)": 9,
+     "pi^* K(ch I) in K(chE')": 18,
+     "rank D + Delta": 9,
+     "rank Delta": 6,
+     "rank monomials, + ch E'": [
+      16,
+      17
+     ],
+     "rank pi_1^* K(ch I) + pi_2^* K(ch I)": 18
+    },
+    "ok": true,
+    "omega": "(Fraction(1, 2), Fraction(1, 2))",
+    "q": 1,
+    "t": 5
+   },
+   {
+    "(i) self-adjoint, eigenvectors, Theta, B rational": true,
+    "N": 2,
+    "c": "(Fraction(3, 2), Fraction(1, 2))",
+    "dims": {
+     "D in K(ch F[x]F)": 9,
+     "D_E' n K(B)": 6,
+     "Delta in K(B) n K(chE')": 6,
+     "G": 6,
+     "K(B)": 18,
+     "K(B) n K(chE')": 6,
+     "K(chE')": 18,
+     "K(chE') n OL": 0,
+     "K(chE') n T": 12,
+     "R": 12,
+     "R n K(chE')": 6,
+     "dim D": 9,
+     "dim K(ch I)": 9,
+     "pi^* K(ch I) in K(chE')": 18,
+     "rank D + Delta": 9,
+     "rank Delta": 6,
+     "rank monomials, + ch E'": [
+      16,
+      17
+     ],
+     "rank pi_1^* K(ch I) + pi_2^* K(ch I)": 18
+    },
+    "ok": true,
+    "omega": "(Fraction(1, 2), Fraction(1, 2))",
+    "q": 3,
+    "t": 5
+   },
+   {
+    "(i) self-adjoint, eigenvectors, Theta, B rational": true,
+    "N": 2,
+    "c": "(Fraction(1, 1), Fraction(0, 1))",
+    "dims": {
+     "D in K(ch F[x]F)": 9,
+     "D_E' n K(B)": 6,
+     "Delta in K(B) n K(chE')": 6,
+     "G": 6,
+     "K(B)": 18,
+     "K(B) n K(chE')": 6,
+     "K(chE')": 18,
+     "K(chE') n OL": 0,
+     "K(chE') n T": 12,
+     "R": 12,
+     "R n K(chE')": 6,
+     "dim D": 9,
+     "dim K(ch I)": 9,
+     "pi^* K(ch I) in K(chE')": 18,
+     "rank D + Delta": 9,
+     "rank Delta": 6,
+     "rank monomials, + ch E'": [
+      16,
+      17
+     ],
+     "rank pi_1^* K(ch I) + pi_2^* K(ch I)": 18
+    },
+    "ok": true,
+    "omega": "(Fraction(0, 1), Fraction(1, 1))",
+    "q": 1,
+    "t": 2
+   },
+   {
+    "(i) self-adjoint, eigenvectors, Theta, B rational": true,
+    "N": 2,
+    "c": "(Fraction(1, 1), Fraction(0, 1))",
+    "dims": {
+     "D in K(ch F[x]F)": 9,
+     "D_E' n K(B)": 6,
+     "Delta in K(B) n K(chE')": 6,
+     "G": 6,
+     "K(B)": 18,
+     "K(B) n K(chE')": 6,
+     "K(chE')": 18,
+     "K(chE') n OL": 0,
+     "K(chE') n T": 12,
+     "R": 12,
+     "R n K(chE')": 6,
+     "dim D": 9,
+     "dim K(ch I)": 9,
+     "pi^* K(ch I) in K(chE')": 18,
+     "rank D + Delta": 9,
+     "rank Delta": 6,
+     "rank monomials, + ch E'": [
+      16,
+      17
+     ],
+     "rank pi_1^* K(ch I) + pi_2^* K(ch I)": 18
+    },
+    "ok": true,
+    "omega": "(Fraction(1, 1), Fraction(1, 1))",
+    "q": 1,
+    "t": 2
+   },
+   {
+    "(i) self-adjoint, eigenvectors, Theta, B rational": true,
+    "N": 4,
+    "c": "(Fraction(1, 1), Fraction(0, 1))",
+    "dims": {
+     "D in K(ch F[x]F)": 9,
+     "D_E' n K(B)": 6,
+     "Delta in K(B) n K(chE')": 6,
+     "G": 6,
+     "K(B)": 18,
+     "K(B) n K(chE')": 6,
+     "K(chE')": 18,
+     "K(chE') n OL": 0,
+     "K(chE') n T": 12,
+     "R": 12,
+     "R n K(chE')": 6,
+     "dim D": 9,
+     "dim K(ch I)": 9,
+     "pi^* K(ch I) in K(chE')": 18,
+     "rank D + Delta": 9,
+     "rank Delta": 6,
+     "rank monomials, + ch E'": [
+      16,
+      17
+     ],
+     "rank pi_1^* K(ch I) + pi_2^* K(ch I)": 18
+    },
+    "ok": true,
+    "omega": "(Fraction(1, 2), Fraction(1, 2))",
+    "q": 3,
+    "t": 57
+   }
+  ]
+ },
+ "seconds": {
+  "AA": 12.0,
+  "Y": 3.5,
+  "Z": 8.4
+ }
+}

@@ -1,0 +1,8 @@
+X Hermitian: True
+J_i J_j + J_j J_i = -2 beta_0: True
+tr eps = 0: True
+(varpi/4) tr eps^2 = chi (Lemma 6.2(a)): True
+Pi rational: True
+chi = (varpi/4) tr(J V J Vbar) on all of R: True
+4 Pi = chi^2 - 4 m on all of R: True
+ALL CHECKS PASS: True

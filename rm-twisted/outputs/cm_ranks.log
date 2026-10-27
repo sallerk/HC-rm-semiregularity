@@ -1,0 +1,71 @@
+t = 5, q = (5/4-1/2*r5) (sigma_1 q = 0.1320, sigma_2 q = 2.3680, N(q) = 5/16, K cyclic)
+  (i) n=4: R+G' annihilates B exactly: True; independent (dim 8): True; modular dim K(B) [8, 8], H^1(T)-part [6, 6]: True
+  (i) n=6: R+G' annihilates B exactly: True; independent (dim 18): True; modular dim K(B) [18, 18], H^1(T)-part [12, 12]: True
+  (i) n=8: R+G' annihilates B exactly: True; independent (dim 32): True; modular dim K(B) [32, 32], H^1(T)-part [20, 20]: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone C1C2  rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone S1S2  rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=6 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 12, 48, 76, 48, 12, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 18: True
+  (ii) n=6 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 12, 48, 74, 48, 12, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 18: True
+t = 5, q = (4+1*r5) (sigma_1 q = 6.2361, sigma_2 q = 1.7639, N(q) = 11, K non-Galois)
+  (i) n=4: R+G' annihilates B exactly: True; independent (dim 8): True; modular dim K(B) [8, 8], H^1(T)-part [6, 6]: True
+  (i) n=6: R+G' annihilates B exactly: True; independent (dim 18): True; modular dim K(B) [18, 18], H^1(T)-part [12, 12]: True
+  (i) n=8: R+G' annihilates B exactly: True; independent (dim 32): True; modular dim K(B) [32, 32], H^1(T)-part [20, 20]: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone C1C2  rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone S1S2  rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=6 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 12, 48, 76, 48, 12, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 18: True
+  (ii) n=6 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 12, 48, 74, 48, 12, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 18: True
+t = 2, q = (1+1/2*r2) (sigma_1 q = 1.7071, sigma_2 q = 0.2929, N(q) = 1/2, K cyclic)
+  (i) n=4: R+G' annihilates B exactly: True; independent (dim 8): True; modular dim K(B) [8, 8], H^1(T)-part [6, 6]: True
+  (i) n=6: R+G' annihilates B exactly: True; independent (dim 18): True; modular dim K(B) [18, 18], H^1(T)-part [12, 12]: True
+  (i) n=8: R+G' annihilates B exactly: True; independent (dim 32): True; modular dim K(B) [32, 32], H^1(T)-part [20, 20]: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone C1C2  rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone S1S2  rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=6 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 12, 48, 76, 48, 12, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 18: True
+  (ii) n=6 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 12, 48, 74, 48, 12, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 18: True
+t = 2, q = (3+1*r2) (sigma_1 q = 4.4142, sigma_2 q = 1.5858, N(q) = 7, K non-Galois)
+  (i) n=4: R+G' annihilates B exactly: True; independent (dim 8): True; modular dim K(B) [8, 8], H^1(T)-part [6, 6]: True
+  (i) n=6: R+G' annihilates B exactly: True; independent (dim 18): True; modular dim K(B) [18, 18], H^1(T)-part [12, 12]: True
+  (i) n=8: R+G' annihilates B exactly: True; independent (dim 32): True; modular dim K(B) [32, 32], H^1(T)-part [20, 20]: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone C1C2  rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone S1S2  rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=6 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 12, 48, 76, 48, 12, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 18: True
+  (ii) n=6 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 12, 48, 74, 48, 12, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 18: True
+t = 13, q = (5/2+1/2*r13) (sigma_1 q = 4.3028, sigma_2 q = 0.6972, N(q) = 3, K non-Galois)
+  (i) n=4: R+G' annihilates B exactly: True; independent (dim 8): True; modular dim K(B) [8, 8], H^1(T)-part [6, 6]: True
+  (i) n=6: R+G' annihilates B exactly: True; independent (dim 18): True; modular dim K(B) [18, 18], H^1(T)-part [12, 12]: True
+  (i) n=8: R+G' annihilates B exactly: True; independent (dim 32): True; modular dim K(B) [32, 32], H^1(T)-part [20, 20]: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 8, 20, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 8: True
+  (ii) n=4 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone C1C2  rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=4 cone S1S2  rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 8, 18, 8, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 10: True
+  (ii) n=6 random     rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 2: ranks [1, 12, 48, 76, 48, 12, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 18: True
+  (ii) n=6 cone       rational True, K(B) kills it True, nonzero c_ef 4, tensor rank 1: ranks [1, 12, 48, 74, 48, 12, 1] (block formula = direct mod p = predicted: True), dim K(c) mod p 18: True
+t = 5, q = (3+1*r5) (sigma_1 q = 5.2361, sigma_2 q = 0.7639, N(q) = 4, K biquadratic)
+  (i) n=4: R+G' annihilates B exactly: True; independent (dim 8): True; modular dim K(B) [8, 8], H^1(T)-part [6, 6]: True
+  (i) n=6: R+G' annihilates B exactly: True; independent (dim 18): True; modular dim K(B) [18, 18], H^1(T)-part [12, 12]: True
+  (i) n=8: R+G' annihilates B exactly: True; independent (dim 32): True; modular dim K(B) [32, 32], H^1(T)-part [20, 20]: True
+  (iii) biquadratic q = 3 + sqrt 5 = 2 phi^2, point of the rational plane: rational True, K(B) kills it True, ranks [1, 8, 12, 8, 1] (block formula agrees: True), dim K(c) mod p 16: True
+ALL CHECKS PASS: True

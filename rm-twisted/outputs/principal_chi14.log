@@ -1,0 +1,26 @@
+t = 5, q = 1, principal free lattice: 8 classes with chi <= 14; as expected: True
+  chi=8  (x, y, z, w) = (-1, 0, 0, 0)  r = -1  g = 0 + 0 sqrt5  (g totally >= 0)
+  chi=8  (x, y, z, w) = (0, -1, 0, 0)  r = 0  g = -1 + 0 sqrt5  (g totally <= 0)
+  chi=8  (x, y, z, w) = (0, 1, 0, 0)  r = 0  g = 1 + 0 sqrt5  (g totally >= 0)
+  chi=8  (x, y, z, w) = (1, 0, 0, 0)  r = 1  g = 0 + 0 sqrt5  (g totally >= 0)
+  chi=12  (x, y, z, w) = (0, -1/2, 0, -1/2)  r = 0  g = -1/2 + -1/2 sqrt5  (g indefinite)
+  chi=12  (x, y, z, w) = (0, -1/2, 0, 1/2)  r = 0  g = -1/2 + 1/2 sqrt5  (g indefinite)
+  chi=12  (x, y, z, w) = (0, 1/2, 0, -1/2)  r = 0  g = 1/2 + -1/2 sqrt5  (g indefinite)
+  chi=12  (x, y, z, w) = (0, 1/2, 0, 1/2)  r = 0  g = 1/2 + 1/2 sqrt5  (g indefinite)
+  the chi = 12 classes have r = 0 and g indefinite (c_1 = L_g not nef): True
+t = 2, q = 1, principal free lattice: 4 classes with chi <= 14; as expected: True
+  chi=8  (x, y, z, w) = (-1, 0, 0, 0)  r = -1  g = 0 + 0 sqrt2  (g totally >= 0)
+  chi=8  (x, y, z, w) = (0, -1, 0, 0)  r = 0  g = -1 + 0 sqrt2  (g totally <= 0)
+  chi=8  (x, y, z, w) = (0, 1, 0, 0)  r = 0  g = 1 + 0 sqrt2  (g totally >= 0)
+  chi=8  (x, y, z, w) = (1, 0, 0, 0)  r = 1  g = 0 + 0 sqrt2  (g totally >= 0)
+t = 3, q = 1, principal free lattice: 4 classes with chi <= 14; as expected: True
+  chi=8  (x, y, z, w) = (-1, 0, 0, 0)  r = -1  g = 0 + 0 sqrt3  (g totally >= 0)
+  chi=8  (x, y, z, w) = (0, -1, 0, 0)  r = 0  g = -1 + 0 sqrt3  (g totally <= 0)
+  chi=8  (x, y, z, w) = (0, 1, 0, 0)  r = 0  g = 1 + 0 sqrt3  (g totally >= 0)
+  chi=8  (x, y, z, w) = (1, 0, 0, 0)  r = 1  g = 0 + 0 sqrt3  (g totally >= 0)
+t = 13, q = 1, principal free lattice: 4 classes with chi <= 14; as expected: True
+  chi=8  (x, y, z, w) = (-1, 0, 0, 0)  r = -1  g = 0 + 0 sqrt13  (g totally >= 0)
+  chi=8  (x, y, z, w) = (0, -1, 0, 0)  r = 0  g = -1 + 0 sqrt13  (g totally <= 0)
+  chi=8  (x, y, z, w) = (0, 1, 0, 0)  r = 0  g = 1 + 0 sqrt13  (g totally >= 0)
+  chi=8  (x, y, z, w) = (1, 0, 0, 0)  r = 1  g = 0 + 0 sqrt13  (g totally >= 0)
+ALL CHECKS PASS: True

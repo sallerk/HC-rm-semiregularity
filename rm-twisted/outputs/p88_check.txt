@@ -1,0 +1,174 @@
+t= 2 free(1,1)                          W=4        (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: 8; odd a in O(Lambda): True
+t= 2 free(1,(2+1*r2))                   W=8        (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 O^4 f=2                            W=64       (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 O^4 f=2 + Zgam/2 (1,(2+1*r2))      W=64       (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 O^4 f=2 +e24                       W=64       (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 O^4 f=2 +e24 + Zgam/2 (1,(2+1*r2)) W=64       (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 O^4 f=4                            W=1024     (A) content/(4 d_F)=16       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 O^4 f=4 + Zgam/4 (1,(2+1*r2))      W=512      (A) content/(4 d_F)=64       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 O^4 f=4 +e24                       W=1024     (A) content/(4 d_F)=16       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 O^4 f=4 +e24 + Zgam/4 (1,(2+1*r2)) W=512      (A) content/(4 d_F)=64       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=2 (1,(2+1*r2))              W=1        (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=2 (1,1)                     W=1/2      (A) content/(4 d_F)=2        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=2 (1,(2+1*r2))              W=1        (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=2 (1,1)                     W=1/4      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=2 (1,1)                     W=1/4      (A) content/(4 d_F)=2        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=2 (1,1)                     W=1/4      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=2 (1,1)                     W=1/2      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=2 (1,(2+1*r2))              W=1        (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=2 (1,1)                     W=1/2      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=2 (1,(2+1*r2))              W=2        (A) content/(4 d_F)=2        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=2 (1,1)                     W=2        (A) content/(4 d_F)=2        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=2 (1,1)                     W=1/8      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=4 (1,(2+1*r2))              W=2        (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=4 (1,1)                     W=1        (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=4 (1,1)                     W=1/4      (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=4 (1,1)                     W=1/64     (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=4 (1,1)                     W=1/8      (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=4 (1,1)                     W=1/4      (A) content/(4 d_F)=16       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=4 (1,1)                     W=1/128    (A) content/(4 d_F)=16       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=4 (1,1)                     W=1/128    (A) content/(4 d_F)=16       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=4 (1,1)                     W=1/32     (A) content/(4 d_F)=32       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=4 (1,(2+1*r2))              W=1/32     (A) content/(4 d_F)=32       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=4 (1,(2+1*r2))              W=1/128    (A) content/(4 d_F)=16       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=4 (1,(2+1*r2))              W=1        (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=8 (1,1)                     W=1/2      (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=8 (1,(2+1*r2))              W=1/4096   (A) content/(4 d_F)=256      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=8 (1,1)                     W=1/2      (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=8 (1,1)                     W=1/8192   (A) content/(4 d_F)=512      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=8 (1,(2+1*r2))              W=1/512    (A) content/(4 d_F)=64       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=8 (1,(2+1*r2))              W=1/8      (A) content/(4 d_F)=64       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=8 (1,1)                     W=1/8192   (A) content/(4 d_F)=512      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=8 (1,(2+1*r2))              W=1/4096   (A) content/(4 d_F)=128      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=8 (1,(2+1*r2))              W=1        (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=8 (1,1)                     W=1/16     (A) content/(4 d_F)=64       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=8 (1,1)                     W=1/8192   (A) content/(4 d_F)=128      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 2 rand N=8 (1,(2+1*r2))              W=1        (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 free(1,1)                          W=4        (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: 8; odd a in O(Lambda): True
+t= 5 free(1,(5/2+1/2*r5))               W=20       (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 O^4 f=2                            W=64       (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 O^4 f=2 + Zgam/2 (1,(5/2+1/2*r5))  W=160      (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 O^4 f=2 +e24                       W=64       (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 O^4 f=2 +e24 + Zgam/2 (1,(5/2+1/2*r5)) W=160      (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 O^4 f=3                            W=324      (A) content/(4 d_F)=9        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 O^4 f=3 + Zgam/3 (1,(5/2+1/2*r5))  W=540      (A) content/(4 d_F)=27       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 O^4 f=3 +e24                       W=324      (A) content/(4 d_F)=9        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 O^4 f=3 +e24 + Zgam/3 (1,(5/2+1/2*r5)) W=540      (A) content/(4 d_F)=27       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=2 (1,1)                     W=2        (A) content/(4 d_F)=2        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=2 (1,(5/2+1/2*r5))          W=5        (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=2 (1,1)                     W=1/8      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=2 (1,1)                     W=2        (A) content/(4 d_F)=2        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=2 (1,(5/2+1/2*r5))          W=5/2      (A) content/(4 d_F)=2        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=2 (1,(5/2+1/2*r5))          W=5/4      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=3 (1,(5/2+1/2*r5))          W=20/3     (A) content/(4 d_F)=3        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=3 (1,(5/2+1/2*r5))          W=20/27    (A) content/(4 d_F)=9        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=3 (1,(5/2+1/2*r5))          W=20/27    (A) content/(4 d_F)=27       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=3 (1,1)                     W=4/81     (A) content/(4 d_F)=9        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=3 (1,1)                     W=4/81     (A) content/(4 d_F)=9        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=3 (1,(5/2+1/2*r5))          W=20/81    (A) content/(4 d_F)=9        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=4 (1,1)                     W=1/64     (A) content/(4 d_F)=16       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=4 (1,(5/2+1/2*r5))          W=5/256    (A) content/(4 d_F)=64       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=4 (1,(5/2+1/2*r5))          W=5        (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=4 (1,1)                     W=1/16     (A) content/(4 d_F)=64       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=4 (1,1)                     W=1/4      (A) content/(4 d_F)=16       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=4 (1,1)                     W=1/4      (A) content/(4 d_F)=16       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=5 (1,(5/2+1/2*r5))          W=4/5      (A) content/(4 d_F)=25       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=5 (1,(5/2+1/2*r5))          W=4/125    (A) content/(4 d_F)=25       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=5 (1,1)                     W=4/25     (A) content/(4 d_F)=25       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=5 (1,(5/2+1/2*r5))          W=4/625    (A) content/(4 d_F)=125      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=5 (1,(5/2+1/2*r5))          W=4/5      (A) content/(4 d_F)=25       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 5 rand N=5 (1,(5/2+1/2*r5))          W=4/125    (A) content/(4 d_F)=125      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 free(1,1)                          W=4        (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: 8; odd a in O(Lambda): True
+t= 3 free(1,(3+1*r3))                   W=24       (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 O^4 f=2                            W=64       (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 O^4 f=2 + Zgam/2 (1,(3+1*r3))      W=192      (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 O^4 f=2 +e24                       W=64       (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 O^4 f=2 +e24 + Zgam/2 (1,(3+1*r3)) W=192      (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 O^4 f=3                            W=324      (A) content/(4 d_F)=9        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 O^4 f=3 + Zgam/3 (1,(3+1*r3))      W=648      (A) content/(4 d_F)=27       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 O^4 f=3 +e24                       W=324      (A) content/(4 d_F)=9        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 O^4 f=3 +e24 + Zgam/3 (1,(3+1*r3)) W=648      (A) content/(4 d_F)=27       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=2 (1,1)                     W=1/2      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=2 (1,1)                     W=1/2      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=2 (1,(3+1*r3))              W=3        (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=2 (1,1)                     W=1/2      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=2 (1,1)                     W=1/4      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=2 (1,1)                     W=4        (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: 8; odd a in O(Lambda): True
+t= 3 rand N=3 (1,(3+1*r3))              W=8/27     (A) content/(4 d_F)=27       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=3 (1,1)                     W=4/9      (A) content/(4 d_F)=9        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=3 (1,1)                     W=4/27     (A) content/(4 d_F)=9        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=3 (1,(3+1*r3))              W=8/27     (A) content/(4 d_F)=9        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=3 (1,(3+1*r3))              W=8/81     (A) content/(4 d_F)=27       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=3 (1,(3+1*r3))              W=8/3      (A) content/(4 d_F)=9        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=4 (1,(3+1*r3))              W=3/32     (A) content/(4 d_F)=16       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=4 (1,(3+1*r3))              W=3/64     (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=4 (1,1)                     W=1/128    (A) content/(4 d_F)=32       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=4 (1,(3+1*r3))              W=3/32     (A) content/(4 d_F)=16       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=4 (1,1)                     W=1/4      (A) content/(4 d_F)=16       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=4 (1,(3+1*r3))              W=3/2      (A) content/(4 d_F)=16       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=6 (1,1)                     W=1/648    (A) content/(4 d_F)=72       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=6 (1,1)                     W=1/162    (A) content/(4 d_F)=36       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=6 (1,(3+1*r3))              W=2/3      (A) content/(4 d_F)=36       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=6 (1,(3+1*r3))              W=4        (A) content/(4 d_F)=6        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=6 (1,(3+1*r3))              W=1/162    (A) content/(4 d_F)=36       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 3 rand N=6 (1,1)                     W=2/3      (A) content/(4 d_F)=6        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 free(1,1)                          W=4        (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: 8; odd a in O(Lambda): True
+t=13 free(1,(4+1*r13))                  W=12       (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 O^4 f=2                            W=64       (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 O^4 f=2 + Zgam/2 (1,(4+1*r13))     W=96       (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 O^4 f=2 +e24                       W=64       (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 O^4 f=2 +e24 + Zgam/2 (1,(4+1*r13)) W=96       (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 rand N=2 (1,1)                     W=1/8      (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 rand N=2 (1,1)                     W=1/2      (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 rand N=2 (1,1)                     W=4        (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: 8; odd a in O(Lambda): True
+t=13 rand N=2 (1,(4+1*r13))             W=3/8      (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 rand N=2 (1,1)                     W=1/2      (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 rand N=13 (1,(4+1*r13))            W=12/13    (A) content/(4 d_F)=13       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 rand N=13 (1,1)                    W=4/371293 (A) content/(4 d_F)=2197     True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 rand N=13 (1,(4+1*r13))            W=12/371293 (A) content/(4 d_F)=2197     True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 rand N=13 (1,1)                    W=4/2197   (A) content/(4 d_F)=2197     True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=13 rand N=13 (1,(4+1*r13))            W=12/2197  (A) content/(4 d_F)=2197     True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 free(1,1)                          W=4        (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: 8; odd a in O(Lambda): True
+t= 7 free(1,(3+1*r7))                   W=8        (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 O^4 f=2                            W=64       (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 O^4 f=2 + Zgam/2 (1,(3+1*r7))      W=64       (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 O^4 f=2 +e24                       W=64       (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 O^4 f=2 +e24 + Zgam/2 (1,(3+1*r7)) W=64       (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 O^4 f=7                            W=9604     (A) content/(4 d_F)=49       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 O^4 f=7 + Zgam/7 (1,(3+1*r7))      W=2744     (A) content/(4 d_F)=343      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 O^4 f=7 +e24                       W=9604     (A) content/(4 d_F)=49       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 O^4 f=7 +e24 + Zgam/7 (1,(3+1*r7)) W=2744     (A) content/(4 d_F)=343      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=2 (1,(3+1*r7))              W=4        (A) content/(4 d_F)=2        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=2 (1,1)                     W=2        (A) content/(4 d_F)=2        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=2 (1,1)                     W=1/8      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=2 (1,(3+1*r7))              W=1        (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=2 (1,1)                     W=1/4      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=7 (1,(3+1*r7))              W=8/343    (A) content/(4 d_F)=343      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=7 (1,(3+1*r7))              W=8/343    (A) content/(4 d_F)=7        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=7 (1,(3+1*r7))              W=8/343    (A) content/(4 d_F)=343      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=7 (1,(3+1*r7))              W=8/7      (A) content/(4 d_F)=7        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=7 (1,(3+1*r7))              W=8/16807  (A) content/(4 d_F)=343      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=14 (1,(3+1*r7))             W=4/7      (A) content/(4 d_F)=14       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=14 (1,1)                    W=1/9604   (A) content/(4 d_F)=98       True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=14 (1,(3+1*r7))             W=1/2401   (A) content/(4 d_F)=392      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=14 (1,1)                    W=1/4802   (A) content/(4 d_F)=392      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t= 7 rand N=14 (1,1)                    W=1/686    (A) content/(4 d_F)=1372     True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 free(1,1)                          W=4        (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: 8; odd a in O(Lambda): True
+t=17 free(1,(5/2+1/2*r17))              W=8        (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 O^4 f=2                            W=64       (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 O^4 f=2 + Zgam/2 (1,(5/2+1/2*r17)) W=64       (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 O^4 f=2 +e24                       W=64       (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 O^4 f=2 +e24 + Zgam/2 (1,(5/2+1/2*r17)) W=64       (A) content/(4 d_F)=8        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 rand N=2 (1,(5/2+1/2*r17))         W=2        (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 rand N=2 (1,(5/2+1/2*r17))         W=4        (A) content/(4 d_F)=2        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 rand N=2 (1,(5/2+1/2*r17))         W=1/4      (A) content/(4 d_F)=4        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 rand N=2 (1,(5/2+1/2*r17))         W=8        (A) content/(4 d_F)=1        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 rand N=2 (1,(5/2+1/2*r17))         W=4        (A) content/(4 d_F)=2        True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 rand N=17 (1,(5/2+1/2*r17))        W=8/83521  (A) content/(4 d_F)=289      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 rand N=17 (1,1)                    W=4/83521  (A) content/(4 d_F)=289      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 rand N=17 (1,1)                    W=4/4913   (A) content/(4 d_F)=4913     True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 rand N=17 (1,(5/2+1/2*r17))        W=8/83521  (A) content/(4 d_F)=289      True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+t=17 rand N=17 (1,(5/2+1/2*r17))        W=8/1419857 (A) content/(4 d_F)=4913     True  (B) least even chi<=14 over 11 q: None; odd a in O(Lambda): True
+lattices 171, (lattice, q) pairs 1881, least even chi <= 14 by t: {2: Fraction(8, 1), 5: Fraction(8, 1), 3: Fraction(8, 1), 13: Fraction(8, 1), 7: Fraction(8, 1), 17: Fraction(8, 1)}
+least chi <= 14 of a nonzero integral class of B(Theta, q), by t and kind of K: {(2, 'biquadratic'): Fraction(8, 1), (5, 'biquadratic'): Fraction(8, 1), (3, 'biquadratic'): Fraction(8, 1), (13, 'biquadratic'): Fraction(8, 1), (7, 'biquadratic'): Fraction(8, 1), (17, 'biquadratic'): Fraction(8, 1)}
+ALL CHECKS PASS: True

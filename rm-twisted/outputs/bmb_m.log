@@ -1,0 +1,6 @@
+twisted matrix Hermitian: True
+chi = (varpi/4) tr(J V J V^T): True
+4 Pi = chi^2 - 4 m with m = (varpi/4)^2 sigma_2(J V J V^T), Pi = chi(c_P) chi(c_P~): True
+m = ((chi(c_P) - chi(c_P~))/2)^2: True
+det(J V J V^T) = 0: True
+ALL CHECKS PASS: True

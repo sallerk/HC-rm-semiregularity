@@ -1,0 +1,40 @@
+    t= 5 free(-3/2+-3/2r5,-3/2+-3/2r5)        W=2916   W_A=9    W_B=81    det b(f^B,f^A)=-5/531441
+    t= 5 free(-3/2+-3/2r5,-1+-1r5)            W=1296   W_A=9    W_B=36    det b(f^B,f^A)=-5/104976
+    t= 5 free(-3/2+-3/2r5,-1/2+-1/2r5)        W=324    W_A=9    W_B=9     det b(f^B,f^A)=-5/6561
+    t= 5 free(-1+-1r5,-3/2+-3/2r5)            W=576    W_A=4    W_B=36    det b(f^B,f^A)=-5/20736
+    t= 5 free(-1+-1r5,-1+-1r5)                W=256    W_A=4    W_B=16    det b(f^B,f^A)=-5/4096
+    t= 5 free(-1+-1r5,-1/2+-1/2r5)            W=64     W_A=4    W_B=4     det b(f^B,f^A)=-5/256
+    t= 5 free(-1/2+-1/2r5,-3/2+-3/2r5)        W=36     W_A=1    W_B=9     det b(f^B,f^A)=-5/81
+    t= 5 free(-1/2+-1/2r5,-1+-1r5)            W=16     W_A=1    W_B=4     det b(f^B,f^A)=-5/16
+    t= 5 free(-1/2+-1/2r5,-1/2+-1/2r5)        W=4      W_A=1    W_B=1     det b(f^B,f^A)=-5
+    t= 2 free(0+-2r2,0+-2r2)                  W=2048   W_A=8    W_B=64    det b(f^B,f^A)=-1/32768
+    t= 2 free(0+-2r2,0+-1r2)                  W=512    W_A=8    W_B=16    det b(f^B,f^A)=-1/2048
+    t= 2 free(0+-2r2,1+-2r2)                  W=1792   W_A=8    W_B=56    det b(f^B,f^A)=-1/25088
+    t= 2 free(0+-1r2,0+-2r2)                  W=128    W_A=2    W_B=16    det b(f^B,f^A)=-1/128
+    t= 2 free(0+-1r2,0+-1r2)                  W=32     W_A=2    W_B=4     det b(f^B,f^A)=-1/8
+    t= 2 free(0+-1r2,1+-2r2)                  W=112    W_A=2    W_B=14    det b(f^B,f^A)=-1/98
+    t= 2 free(1+-2r2,0+-2r2)                  W=1568   W_A=7    W_B=56    det b(f^B,f^A)=-1/19208
+    t= 2 free(1+-2r2,0+-1r2)                  W=392    W_A=7    W_B=14    det b(f^B,f^A)=-2/2401
+    t= 2 free(1+-2r2,1+-2r2)                  W=1372   W_A=7    W_B=49    det b(f^B,f^A)=-8/117649
+    t= 3 free(0+-1r3,0+-1r3)                  W=108    W_A=3    W_B=9     det b(f^B,f^A)=-4/243
+    t= 3 free(0+-1r3,1+-1r3)                  W=72     W_A=3    W_B=6     det b(f^B,f^A)=-1/27
+    t= 3 free(0+-1r3,1+0r3)                   W=36     W_A=3    W_B=3     det b(f^B,f^A)=4/27
+    t= 3 free(1+-1r3,0+-1r3)                  W=48     W_A=2    W_B=6     det b(f^B,f^A)=-1/12
+    t= 3 free(1+-1r3,1+-1r3)                  W=32     W_A=2    W_B=4     det b(f^B,f^A)=-3/16
+    t= 3 free(1+-1r3,1+0r3)                   W=16     W_A=2    W_B=2     det b(f^B,f^A)=3/4
+    t= 3 free(1+0r3,0+-1r3)                   W=12     W_A=1    W_B=3     det b(f^B,f^A)=-4/3
+    t= 3 free(1+0r3,1+-1r3)                   W=8      W_A=1    W_B=2     det b(f^B,f^A)=-3
+    t= 3 free(1+0r3,1+0r3)                    W=4      W_A=1    W_B=1     det b(f^B,f^A)=12
+    t=13 free(-1/2+-1/2r13,-1/2+-1/2r13)      W=108    W_A=3    W_B=9     det b(f^B,f^A)=-13/729
+    t=13 free(-1/2+-1/2r13,1+0r13)            W=36     W_A=3    W_B=3     det b(f^B,f^A)=13/81
+    t=13 free(-1/2+-1/2r13,3/2+1/2r13)        W=36     W_A=3    W_B=3     det b(f^B,f^A)=-13/81
+    t=13 free(1+0r13,-1/2+-1/2r13)            W=12     W_A=1    W_B=3     det b(f^B,f^A)=-13/9
+    t=13 free(1+0r13,1+0r13)                  W=4      W_A=1    W_B=1     det b(f^B,f^A)=13
+    t=13 free(1+0r13,3/2+1/2r13)              W=4      W_A=1    W_B=1     det b(f^B,f^A)=-13
+    t=13 free(3/2+1/2r13,-1/2+-1/2r13)        W=12     W_A=1    W_B=3     det b(f^B,f^A)=-13/9
+    t=13 free(3/2+1/2r13,1+0r13)              W=4      W_A=1    W_B=1     det b(f^B,f^A)=13
+    t=13 free(3/2+1/2r13,3/2+1/2r13)          W=4      W_A=1    W_B=1     det b(f^B,f^A)=-13
+(P1) True
+(P2) True
+(P3) True
+ALL CHECKS PASS: True

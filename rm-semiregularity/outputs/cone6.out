@@ -1,0 +1,69 @@
+    (U) n=6 cone points, ranks on HT^k (block formula) {'C1C2 q=3': [1, 12, 48, 74, 48, 12, 1], 'S1S2 q=3': [1, 12, 48, 74, 48, 12, 1], 'C1C2 q=1/2': [1, 12, 48, 74, 48, 12, 1], 'S1S2 q=1/2': [1, 12, 48, 74, 48, 12, 1], '(C1+15S1)(C2+15S2) q=3': [1, 12, 48, 74, 48, 12, 1], '(C1+(4+19w)S1)(C2+(4+19wbar)S2) q=3, t=57': [1, 12, 48, 74, 48, 12, 1]}; direct modular, all degrees: {'C1C2 q=3': [1, 12, 48, 74, 48, 12, 1, 0, 0, 0, 0, 0, 0], 'S1S2 q=3': [1, 12, 48, 74, 48, 12, 1, 0, 0, 0, 0, 0, 0]}: True
+    (U) count: e_1 >= 12, e_3 >= 74, 2 - 2 e_1 + 96 - e_3 = 0 -> [(12, 74)]; profile = (1 + 6x + 6x^2 + x^3)^2: True
+    (U) one block, ranks of contraction with a C + b S (q = 3, 1/2, 7; five (a, b)): all (1, 6, 6, 1): True
+    (U) ann(u_1) (x) wedge W_2 + wedge W_1 (x) ann(u_2) kills c = u_1 u_2: kernel dims {'block1_deg2': 9, 'block1_deg3': 19, 'block2_deg2': 9, 'block2_deg3': 19}, 3584 products tested: True
+    (U) dim K(c) at rational cone points (t = 57, q = 3): {'(C1+15S1)(C2+15S2)': 18, '57 S1S2': 18, '(C1+gS1)(C2+gbarS2), g = 4 + 19 omega': 18} (= 18 = n^2/2): True
+(U) True  [1.2s]
+    (V) e^Theta (1 - (N/2) Theta^2 + (N/3) Theta^3) = alpha_0 + beta_0 with q = N - 1 (threefold): True
+    (V) ch(E') = f(Theta_1) f(Theta_2), N = 2, 4: ranks {2: [1, 12, 48, 74, 48, 12, 1], 'mukai N=2': 0, 4: [1, 12, 48, 74, 48, 12, 1], 'direct N=4': [1, 12, 48, 74, 48, 12, 1], 'mukai N=4': 0}, Mukai square 0: True
+    (V) one block, A = e_Theta - (1/q) Lambda: {'A C = 3 S, A S = -(3/q) C': True, 'A Omega = 0': True, 'skew': True, '[A, W] in W': True, '[e_Theta, W] in W': True}: True
+(V) True  [5.8s]
+    (W) identities: rational cone points lambda u sigma(u) lie on the cone True; int c e^{s.Theta} = P f_1(s_1) f_2(s_2) True; c_1^2 - 2 r ch_2 = sum (g_k^2 + q r^2) Theta_k^2 on the cone True; chi = 32 (r chi(F) - nu), chi(F) = q^3 P v True: True
+    (W) t=57 q=3 principal (P = 1): 88 integral cone points with height <= 3000000 (26 up to sign and tau), gcd of ranks 1 (0.1s): True
+        h=155952 (x,y,z,w)=(19/2, 0, 19/2, 0) r=19 v=0 g=0 + 0 sqrt 57 chi(F)=0
+        h=155952 (x,y,z,w)=(-19/2, 0, 19/2, 0) r=0 v=19 g=0 + 0 sqrt 57 chi(F)=513
+        h=155952 (x,y,z,w)=(13/2, 12, 19/2, 0) r=16 v=3 g=12 + 0 sqrt 57 chi(F)=81
+        h=155952 (x,y,z,w)=(-13/2, 12, 19/2, 0) r=3 v=16 g=12 + 0 sqrt 57 chi(F)=432
+        h=2495232 (x,y,z,w)=(-37, 15, 38, 0) r=1 v=75 g=15 + 0 sqrt 57 chi(F)=2025
+        h=2963088 (x,y,z,w)=(38, 57/2, 0, 19/2) r=38 v=-38 g=57/2 + 19/2 sqrt 57 chi(F)=-1026
+    (W) t=57 q=1 principal (P = 1): 12 integral cone points with height <= 300000 (5 up to sign and tau), gcd of ranks 57 (0.1s): True
+        h=51984 (x,y,z,w)=(57/2, 0, 57/2, 0) r=57 v=0 g=0 + 0 sqrt 57 chi(F)=0
+        h=51984 (x,y,z,w)=(-57/2, 0, 57/2, 0) r=0 v=57 g=0 + 0 sqrt 57 chi(F)=57
+        h=207936 (x,y,z,w)=(57, 0, 57, 0) r=114 v=0 g=0 + 0 sqrt 57 chi(F)=0
+        h=207936 (x,y,z,w)=(-57, 0, 57, 0) r=0 v=114 g=0 + 0 sqrt 57 chi(F)=114
+    (W) t=5 q=1 principal (P = 1): 52 integral cone points with height <= 2000 (15 up to sign and tau), gcd of ranks 1 (0.1s): True
+        h=400 (x,y,z,w)=(5/2, 0, 5/2, 0) r=5 v=0 g=0 + 0 sqrt 5 chi(F)=0
+        h=400 (x,y,z,w)=(-5/2, 0, 5/2, 0) r=0 v=5 g=0 + 0 sqrt 5 chi(F)=5
+        h=400 (x,y,z,w)=(3/2, 2, 5/2, 0) r=4 v=1 g=2 + 0 sqrt 5 chi(F)=1
+        h=400 (x,y,z,w)=(-3/2, 2, 5/2, 0) r=1 v=4 g=2 + 0 sqrt 5 chi(F)=4
+        h=2000 (x,y,z,w)=(5, 5/2, 0, 5/2) r=5 v=-5 g=5/2 + 5/2 sqrt 5 chi(F)=-5
+    (W) t=5 q=3 principal (P = 1): 14 integral cone points with height <= 20000 (6 up to sign and tau), gcd of ranks 5 (0.1s): True
+        h=1200 (x,y,z,w)=(-5/6, 0, 5/6, 0) r=0 v=5/3 g=0 + 0 sqrt 5 chi(F)=45
+        h=4800 (x,y,z,w)=(-5/3, 0, 5/3, 0) r=0 v=10/3 g=0 + 0 sqrt 5 chi(F)=90
+        h=10800 (x,y,z,w)=(5/2, 0, 5/2, 0) r=5 v=0 g=0 + 0 sqrt 5 chi(F)=0
+        h=10800 (x,y,z,w)=(-5/2, 0, 5/2, 0) r=0 v=5 g=0 + 0 sqrt 5 chi(F)=135
+    (W) t=13 q=1 principal (P = 1): 36 integral cone points with height <= 12000 (11 up to sign and tau), gcd of ranks 1 (0.1s): True
+        h=2704 (x,y,z,w)=(13/2, 0, 13/2, 0) r=13 v=0 g=0 + 0 sqrt 13 chi(F)=0
+        h=2704 (x,y,z,w)=(-13/2, 0, 13/2, 0) r=0 v=13 g=0 + 0 sqrt 13 chi(F)=13
+        h=2704 (x,y,z,w)=(5/2, 6, 13/2, 0) r=9 v=4 g=6 + 0 sqrt 13 chi(F)=4
+        h=2704 (x,y,z,w)=(-5/2, 6, 13/2, 0) r=4 v=9 g=6 + 0 sqrt 13 chi(F)=9
+        h=10816 (x,y,z,w)=(-12, 5, 13, 0) r=1 v=25 g=5 + 0 sqrt 13 chi(F)=25
+    (W) t=2 q=1 principal (P = 1): 24 integral cone points with height <= 2000 (8 up to sign and tau), gcd of ranks 2 (0.0s): True
+        h=256 (x,y,z,w)=(2, 0, 2, 0) r=4 v=0 g=0 + 0 sqrt 2 chi(F)=0
+        h=256 (x,y,z,w)=(-2, 0, 2, 0) r=0 v=4 g=0 + 0 sqrt 2 chi(F)=4
+        h=256 (x,y,z,w)=(0, 2, 2, 0) r=2 v=2 g=2 + 0 sqrt 2 chi(F)=2
+        h=512 (x,y,z,w)=(2, 2, 0, 2) r=2 v=-2 g=2 + 2 sqrt 2 chi(F)=-2
+    (W) t=3 q=1 principal (P = 1): 32 integral cone points with height <= 5000 (10 up to sign and tau), gcd of ranks 3 (0.1s): True
+        h=576 (x,y,z,w)=(3, 0, 3, 0) r=6 v=0 g=0 + 0 sqrt 3 chi(F)=0
+        h=576 (x,y,z,w)=(-3, 0, 3, 0) r=0 v=6 g=0 + 0 sqrt 3 chi(F)=6
+        h=576 (x,y,z,w)=(0, 3, 3, 0) r=3 v=3 g=3 + 0 sqrt 3 chi(F)=3
+        h=2304 (x,y,z,w)=(6, 0, 6, 0) r=12 v=0 g=0 + 0 sqrt 3 chi(F)=0
+        h=2304 (x,y,z,w)=(6, 0, 3, 3) r=9 v=-3 g=0 + 3 sqrt 3 chi(F)=-3
+    (W) t=57 q=3 N=2 (P = 1/8): 12 integral cone points with height <= 2600000 (4 up to sign and tau), gcd of ranks 8 (0.3s): True
+        h=1247616 (x,y,z,w)=(76, 0, 76, 0) r=152 v=0 g=0 + 0 sqrt 57 chi(F)=0
+        h=1247616 (x,y,z,w)=(-76, 0, 76, 0) r=0 v=152 g=0 + 0 sqrt 57 chi(F)=513
+        h=1247616 (x,y,z,w)=(52, 96, 76, 0) r=128 v=24 g=96 + 0 sqrt 57 chi(F)=81
+        h=1247616 (x,y,z,w)=(-52, 96, 76, 0) r=24 v=128 g=96 + 0 sqrt 57 chi(F)=432
+    (W) t=57 q=3 N=3 (P = 1/81): 12 integral cone points with height <= 12632113 (4 up to sign and tau), gcd of ranks 81 (0.8s): True
+        h=12632112 (x,y,z,w)=(1539/2, 0, 1539/2, 0) r=1539 v=0 g=0 + 0 sqrt 57 chi(F)=0
+        h=12632112 (x,y,z,w)=(-1539/2, 0, 1539/2, 0) r=0 v=1539 g=0 + 0 sqrt 57 chi(F)=513
+        h=12632112 (x,y,z,w)=(1053/2, 972, 1539/2, 0) r=1296 v=243 g=972 + 0 sqrt 57 chi(F)=81
+        h=12632112 (x,y,z,w)=(-1053/2, 972, 1539/2, 0) r=243 v=1296 g=972 + 0 sqrt 57 chi(F)=432
+(W) True  [2.4s]
+    (X) symbolic identities (B-conditions, sum eps N, Hn, coordinates, chi = 4 [(sum eps N)^2 + q Tr(G^2)], parametrization, the cases s rational and g_2 = lambda g_1): [True, True, True, True, True, True, True, True, True, True, True, True, True]: True
+    (X) content of Theta_1 Theta_2 on O_F^4 (principal): {2: ('1/4', '1/4'), 3: ('1/6', '1/6'), 5: ('1/5', '1/5'), 6: ('1/12', '1/12'), 7: ('1/14', '1/14'), 13: ('1/13', '1/13'), 17: ('1/17', '1/17'), 21: ('1/21', '1/21'), 57: ('1/57', '1/57')} (= 1/d_F or 2/d_F): True
+    (X) g_1 = g_2 irrational, Tr(a) <= 11, all squarefree t < 400: 44 elements a, 0 candidate scalings, solutions []; control: the 10.5(d) configuration is recovered from its a (k = [1], s = (Fraction(-71, 1), Fraction(96, 1))): True: True
+    (X) brute force (g totally positive with Tr(g) <= 2 GB, m in a box): {5: {'pairs_g': 15, 'box_m': 15, 'in_B': 92, 'off_P': 0, 'least_chi_off_P': 'None'}, 13: {'pairs_g': 7, 'box_m': 10, 'in_B': 48, 'off_P': 0, 'least_chi_off_P': 'None'}, 2: {'pairs_g': 9, 'box_m': 10, 'in_B': 48, 'off_P': 0, 'least_chi_off_P': 'None'}}: True
+    (X) (q, chi) of the classes of 10.5(c), (d): {"10.5(d) O_D(M) + O_D'(M')": ('25631', '89400928'), '10.5(c) a = phi': ('1', '32'), "10.5(d) 10 O_D(L_phi^2) - 3 O_D'(L_2) (signed)": ('1', '6592')} (> 44, resp. > 28 on P): True
+(X) True  [9.1s]
+ALL CHECKS PASS: True
